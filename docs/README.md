@@ -1,30 +1,79 @@
----
-home: true
-heroImage: https://i.loli.net/2018/10/20/5bcb455c17616.png
-actionText: Get Started →
-actionLink: /en-US/guide/
-features:
-- title: Reproducible
-  details: Install pre-trained models along with the source code.
-- title: Security
-  details: Enjoy the dev experience of developing with CVTron. Adopting it to your own product is very soon and easy. Join our community will bring you more fun to develop with.
-- title: Authorizable
-  details: Feel free to use it in your commercial product. Some companies have tested it in production environment already. We are also providing consulting service.
-footer: MIT Licensed | Copyright © 2018-Present UnArxiv Foundation
----
-### As Easy as 1, 2, 3
+![https://github.com/autoai-org/aid/actions](https://github.com/autoai-org/aid/workflows/cmd/badge.svg)
+![https://github.com/autoai-org/aid/actions](https://github.com/autoai-org/aid/workflows/dashboard/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/autoai-org/aid)](https://goreportcard.com/report/github.com/autoai-org/aid)
+[![CodeFactor](https://www.codefactor.io/repository/github/autoai-org/aid/badge)](https://www.codefactor.io/repository/github/autoai-org/aid)
 
-``` bash
-# install
-curl https://get.autoai.org/cvpm/latest.sh # OR manually download binary
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/autoai-org/aid">
+    <img src="assets/images/logo_white.png" alt="Logo" width="240">
+  </a>
 
-# Download Computer Vision Package
-cvpm install xzyaoi/Face_Utility # OR cvpm install https://github.com/xzyaoi/Face_Utility
+  <h3 align="center">A.I.D</h3>
 
-# start serving
-cvpm repo run xzyaoi/Face_Utility/Face_Detection
-```
+  <p align="center">
+    Aid your entire A.I activity.
+    <br />
+    <a href="https://aid.autoai.org"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.youtube.com/watch?v=0TU28hkx7KE&t=33s">Video Demo</a>
+    ·
+    <a href="https://github.com/autoai-org/aid/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/autoai-org/aid/issues">Request Feature</a>
+    ·
+    <a href="https://github.com/autoai-org/aid/issues">Read the Story</a>
+  </p>
+</p>
 
-::: warning COMPATIBILITY NOTE
-CVPM requires Python >= 3.5
-:::
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+For more examples, please refer to the [Documentation](https://aid.autoai.org).
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/autoai-org/aid/issues) for a list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+
+Personal use are governed by the MIT License. See `LICENSE` for more information.
+
+## Credit
+
+CVFlow is impossible to be made without the help from the community. We would love to express our sincere gratitude to the following organizations and individuals for their kind support:
+
+* [AICAMP.CO.,LTD](https://autoai.org) for becoming the umbrella company of CVFlow (and many other open software).
+* [Cyberport.hk](https://cyberport.hk) for providing incubation programme for our projects.
+* [Shenzhen University](https://www.szu.edu.cn) for providing lots of general help.
+* [Oregon State University Open Source Lab](https://osuosl.org/) for hosting open source and some public models.
+* [Netlify](https://www.netlify.com/) for hosting our static websites.
+* [Amazon Web Services](https://aws.amazon.com) for providing general web services.
+* [DiDi Cloud](https://www.didiyun.com/?channel=14204) for providing cloud services.
+
+In case you are interested, and if this project helps you or your company, you could make a small donation or become a long-term sponsor at our [Open Collective](http://opencollective.com/autoai).

@@ -1,0 +1,33 @@
+name: cmd
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Set up Go 1.13
+      uses: actions/setup-go@v1
+      with:
+        go-version: 1.13
+      id: go
+
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v1
+
+    - name: Get dependencies
+      run: |
+        cd components/cmd && make test
+        
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        file: ./components/cmd/c.out
+        flags: cmd-codecov
+        name: cmd-codecov
+        fail_ci_if_error: true
+        
+    - name: Build
+      run: cd components/cmd && make build
